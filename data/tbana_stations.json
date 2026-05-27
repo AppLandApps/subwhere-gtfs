@@ -1118,15 +1118,6 @@
   {
     "line": 14,
     "direction": 1,
-    "stop_id": "9022050009872001",
-    "name": "Sätra",
-    "lat": 59.28506,
-    "lon": 17.921093,
-    "shape_dist_traveled": 0.0
-  },
-  {
-    "line": 14,
-    "direction": 1,
     "stop_id": "9022050010777001",
     "name": "Västertorp",
     "lat": 59.291351,
@@ -1145,29 +1136,11 @@
   {
     "line": 14,
     "direction": 1,
-    "stop_id": "9022050009871001",
-    "name": "Bredäng",
-    "lat": 59.294802,
-    "lon": 17.936005,
-    "shape_dist_traveled": 1593.67
-  },
-  {
-    "line": 14,
-    "direction": 1,
     "stop_id": "9022050009875001",
     "name": "Telefonplan",
     "lat": 59.298248,
     "lon": 17.997318,
     "shape_dist_traveled": 2479.71
-  },
-  {
-    "line": 14,
-    "direction": 1,
-    "stop_id": "9022050009870001",
-    "name": "Mälarhöjden",
-    "lat": 59.301251,
-    "lon": 17.957741,
-    "shape_dist_traveled": 3056.53
   },
   {
     "line": 14,
@@ -1181,15 +1154,6 @@
   {
     "line": 14,
     "direction": 1,
-    "stop_id": "9022050009869001",
-    "name": "Axelsberg",
-    "lat": 59.304377,
-    "lon": 17.975569,
-    "shape_dist_traveled": 4141.78
-  },
-  {
-    "line": 14,
-    "direction": 1,
     "stop_id": "9022050009866003",
     "name": "Liljeholmen",
     "lat": 59.310706,
@@ -1199,29 +1163,11 @@
   {
     "line": 14,
     "direction": 1,
-    "stop_id": "9022050009868001",
-    "name": "Örnsberg",
-    "lat": 59.305434,
-    "lon": 17.98914,
-    "shape_dist_traveled": 4924.54
-  },
-  {
-    "line": 14,
-    "direction": 1,
     "stop_id": "9022050009865001",
     "name": "Hornstull",
     "lat": 59.31603,
     "lon": 18.035499,
     "shape_dist_traveled": 5563.94
-  },
-  {
-    "line": 14,
-    "direction": 1,
-    "stop_id": "9022050009867001",
-    "name": "Aspudden",
-    "lat": 59.306521,
-    "lon": 18.001823,
-    "shape_dist_traveled": 5665.62
   },
   {
     "line": 14,
@@ -1330,78 +1276,6 @@
     "lat": 59.398203,
     "lon": 18.036891,
     "shape_dist_traveled": 19046.63
-  },
-  {
-    "line": 17,
-    "direction": 0,
-    "stop_id": "9022050009843002",
-    "name": "Hässelby strand",
-    "lat": 59.361742,
-    "lon": 17.832466,
-    "shape_dist_traveled": 0.0
-  },
-  {
-    "line": 17,
-    "direction": 0,
-    "stop_id": "9022050009842002",
-    "name": "Hässelby gård",
-    "lat": 59.36707,
-    "lon": 17.844394,
-    "shape_dist_traveled": 928.53
-  },
-  {
-    "line": 17,
-    "direction": 0,
-    "stop_id": "9022050009841002",
-    "name": "Johannelund",
-    "lat": 59.367922,
-    "lon": 17.85815,
-    "shape_dist_traveled": 1724.15
-  },
-  {
-    "line": 17,
-    "direction": 0,
-    "stop_id": "9022050009840002",
-    "name": "Vällingby",
-    "lat": 59.363268,
-    "lon": 17.872011,
-    "shape_dist_traveled": 2698.55
-  },
-  {
-    "line": 17,
-    "direction": 0,
-    "stop_id": "9022050009839002",
-    "name": "Råcksta",
-    "lat": 59.354495,
-    "lon": 17.881624,
-    "shape_dist_traveled": 3875.91
-  },
-  {
-    "line": 17,
-    "direction": 0,
-    "stop_id": "9022050009838002",
-    "name": "Blackeberg",
-    "lat": 59.34837,
-    "lon": 17.88285,
-    "shape_dist_traveled": 4588.76
-  },
-  {
-    "line": 17,
-    "direction": 0,
-    "stop_id": "9022050009837002",
-    "name": "Islandstorget",
-    "lat": 59.345995,
-    "lon": 17.893219,
-    "shape_dist_traveled": 5250.16
-  },
-  {
-    "line": 17,
-    "direction": 0,
-    "stop_id": "9022050009836002",
-    "name": "Ängbyplan",
-    "lat": 59.341946,
-    "lon": 17.907174,
-    "shape_dist_traveled": 6171.95
   },
   {
     "line": 17,
@@ -1836,78 +1710,6 @@
     "shape_dist_traveled": 19639.37
   },
   {
-    "line": 17,
-    "direction": 1,
-    "stop_id": "9022050009836001",
-    "name": "Ängbyplan",
-    "lat": 59.341956,
-    "lon": 17.907087,
-    "shape_dist_traveled": 20589.27
-  },
-  {
-    "line": 17,
-    "direction": 1,
-    "stop_id": "9022050009837001",
-    "name": "Islandstorget",
-    "lat": 59.345994,
-    "lon": 17.893271,
-    "shape_dist_traveled": 21503.59
-  },
-  {
-    "line": 17,
-    "direction": 1,
-    "stop_id": "9022050009838001",
-    "name": "Blackeberg",
-    "lat": 59.34837,
-    "lon": 17.88285,
-    "shape_dist_traveled": 22173.43
-  },
-  {
-    "line": 17,
-    "direction": 1,
-    "stop_id": "9022050009839001",
-    "name": "Råcksta",
-    "lat": 59.354513,
-    "lon": 17.881625,
-    "shape_dist_traveled": 22884.32
-  },
-  {
-    "line": 17,
-    "direction": 1,
-    "stop_id": "9022050009840001",
-    "name": "Vällingby",
-    "lat": 59.363277,
-    "lon": 17.872011,
-    "shape_dist_traveled": 24056.4
-  },
-  {
-    "line": 17,
-    "direction": 1,
-    "stop_id": "9022050009841001",
-    "name": "Johannelund",
-    "lat": 59.367923,
-    "lon": 17.858132,
-    "shape_dist_traveled": 25032.95
-  },
-  {
-    "line": 17,
-    "direction": 1,
-    "stop_id": "9022050009842001",
-    "name": "Hässelby gård",
-    "lat": 59.367044,
-    "lon": 17.844287,
-    "shape_dist_traveled": 25834.22
-  },
-  {
-    "line": 17,
-    "direction": 1,
-    "stop_id": "9022050009843002",
-    "name": "Hässelby strand",
-    "lat": 59.361742,
-    "lon": 17.832466,
-    "shape_dist_traveled": 26756.87
-  },
-  {
     "line": 18,
     "direction": 0,
     "stop_id": "9022050009840002",
@@ -1915,105 +1717,6 @@
     "lat": 59.363268,
     "lon": 17.872011,
     "shape_dist_traveled": 0.0
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009843002",
-    "name": "Hässelby strand",
-    "lat": 59.361742,
-    "lon": 17.832466,
-    "shape_dist_traveled": 0.0
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009842002",
-    "name": "Hässelby gård",
-    "lat": 59.36707,
-    "lon": 17.844394,
-    "shape_dist_traveled": 928.53
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009839002",
-    "name": "Råcksta",
-    "lat": 59.354495,
-    "lon": 17.881624,
-    "shape_dist_traveled": 1177.36
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009841002",
-    "name": "Johannelund",
-    "lat": 59.367922,
-    "lon": 17.85815,
-    "shape_dist_traveled": 1724.15
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009838002",
-    "name": "Blackeberg",
-    "lat": 59.34837,
-    "lon": 17.88285,
-    "shape_dist_traveled": 1890.21
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009837002",
-    "name": "Islandstorget",
-    "lat": 59.345995,
-    "lon": 17.893219,
-    "shape_dist_traveled": 2551.61
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009836002",
-    "name": "Ängbyplan",
-    "lat": 59.341946,
-    "lon": 17.907174,
-    "shape_dist_traveled": 3473.4
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050012256002",
-    "name": "Åkeshov",
-    "lat": 59.342212,
-    "lon": 17.923296,
-    "shape_dist_traveled": 4400.71
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009835002",
-    "name": "Brommaplan",
-    "lat": 59.338284,
-    "lon": 17.939641,
-    "shape_dist_traveled": 5436.06
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009834002",
-    "name": "Abrahamsberg",
-    "lat": 59.336563,
-    "lon": 17.953172,
-    "shape_dist_traveled": 6242.57
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009833002",
-    "name": "Stora mossen",
-    "lat": 59.334673,
-    "lon": 17.965338,
-    "shape_dist_traveled": 6966.6
   },
   {
     "line": 18,
@@ -2428,114 +2131,6 @@
     "lat": 59.333528,
     "lon": 17.981329,
     "shape_dist_traveled": 18467.02
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050009833001",
-    "name": "Stora mossen",
-    "lat": 59.334664,
-    "lon": 17.965355,
-    "shape_dist_traveled": 19442.44
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050009834001",
-    "name": "Abrahamsberg",
-    "lat": 59.336563,
-    "lon": 17.953172,
-    "shape_dist_traveled": 20167.73
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050009835001",
-    "name": "Brommaplan",
-    "lat": 59.338284,
-    "lon": 17.939641,
-    "shape_dist_traveled": 20973.59
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050012256001",
-    "name": "Åkeshov",
-    "lat": 59.342052,
-    "lon": 17.923599,
-    "shape_dist_traveled": 21993.94
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050009836001",
-    "name": "Ängbyplan",
-    "lat": 59.341956,
-    "lon": 17.907087,
-    "shape_dist_traveled": 22943.84
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050009837001",
-    "name": "Islandstorget",
-    "lat": 59.345994,
-    "lon": 17.893271,
-    "shape_dist_traveled": 23858.16
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050009838001",
-    "name": "Blackeberg",
-    "lat": 59.34837,
-    "lon": 17.88285,
-    "shape_dist_traveled": 24528.0
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050009839001",
-    "name": "Råcksta",
-    "lat": 59.354513,
-    "lon": 17.881625,
-    "shape_dist_traveled": 25238.89
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050009840001",
-    "name": "Vällingby",
-    "lat": 59.363277,
-    "lon": 17.872011,
-    "shape_dist_traveled": 26410.97
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050009841001",
-    "name": "Johannelund",
-    "lat": 59.367923,
-    "lon": 17.858132,
-    "shape_dist_traveled": 27387.52
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050009842001",
-    "name": "Hässelby gård",
-    "lat": 59.367044,
-    "lon": 17.844287,
-    "shape_dist_traveled": 28188.79
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050009843002",
-    "name": "Hässelby strand",
-    "lat": 59.361742,
-    "lon": 17.832466,
-    "shape_dist_traveled": 29111.44
   },
   {
     "line": 19,
