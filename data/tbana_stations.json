@@ -2234,29 +2234,29 @@
   {
     "line": 18,
     "direction": 1,
-    "stop_id": "9022050009855002",
-    "name": "Hökarängen",
-    "lat": 59.257921,
-    "lon": 18.082514,
-    "shape_dist_traveled": 0.0
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050009854002",
-    "name": "Gubbängen",
-    "lat": 59.263324,
-    "lon": 18.082138,
-    "shape_dist_traveled": 603.49
-  },
-  {
-    "line": 18,
-    "direction": 1,
     "stop_id": "9022050009856001",
     "name": "Farsta",
     "lat": 59.243524,
     "lon": 18.093653,
     "shape_dist_traveled": 1012.41
+  },
+  {
+    "line": 18,
+    "direction": 1,
+    "stop_id": "9022050009855001",
+    "name": "Hökarängen",
+    "lat": 59.25793,
+    "lon": 18.082497,
+    "shape_dist_traveled": 2791.44
+  },
+  {
+    "line": 18,
+    "direction": 1,
+    "stop_id": "9022050009854001",
+    "name": "Gubbängen",
+    "lat": 59.263324,
+    "lon": 18.082138,
+    "shape_dist_traveled": 3394.03
   },
   {
     "line": 18,
@@ -2936,7 +2936,7 @@
   {
     "line": 19,
     "direction": 1,
-    "stop_id": "9022050009844003",
+    "stop_id": "9022050009844005",
     "name": "Gullmarsplan",
     "lat": 59.299139,
     "lon": 18.080984,
@@ -3044,29 +3044,11 @@
   {
     "line": 19,
     "direction": 1,
-    "stop_id": "9022050009833001",
-    "name": "Stora mossen",
-    "lat": 59.334664,
-    "lon": 17.965355,
-    "shape_dist_traveled": 16507.35
-  },
-  {
-    "line": 19,
-    "direction": 1,
     "stop_id": "9022050009831001",
     "name": "Kristineberg",
     "lat": 59.332722,
     "lon": 18.003123,
     "shape_dist_traveled": 16721.19
-  },
-  {
-    "line": 19,
-    "direction": 1,
-    "stop_id": "9022050009834001",
-    "name": "Abrahamsberg",
-    "lat": 59.336563,
-    "lon": 17.953172,
-    "shape_dist_traveled": 17232.64
   },
   {
     "line": 19,
@@ -3080,11 +3062,29 @@
   {
     "line": 19,
     "direction": 1,
+    "stop_id": "9022050009833001",
+    "name": "Stora mossen",
+    "lat": 59.334664,
+    "lon": 17.965355,
+    "shape_dist_traveled": 18970.12
+  },
+  {
+    "line": 19,
+    "direction": 1,
+    "stop_id": "9022050009834001",
+    "name": "Abrahamsberg",
+    "lat": 59.336563,
+    "lon": 17.953172,
+    "shape_dist_traveled": 19695.41
+  },
+  {
+    "line": 19,
+    "direction": 1,
     "stop_id": "9022050009835001",
     "name": "Brommaplan",
     "lat": 59.338284,
     "lon": 17.939641,
-    "shape_dist_traveled": 18038.5
+    "shape_dist_traveled": 20501.27
   },
   {
     "line": 19,
