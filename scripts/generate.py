@@ -4,7 +4,7 @@ import csv
 import json
 import io
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from collections import defaultdict
 
 TRAFIKLAB_KEY = os.environ['TRAFIKLAB_KEY']
@@ -155,13 +155,117 @@ def main():
             json.dump(stations_result, f, ensure_ascii=False, indent=2)
         print(f'tbana_stations.json: {len(stations_result)} stations')
 
+        # ============================================================
+        # WIDGET SCHEDULED-DEPARTURE FLOOR  (added)
+        # A compact per-station timetable + metro service calendar so the
+        # home-screen widget stays full even when realtime data is sparse
+        # or iOS throttles the refresh. Keyed by station NAME to match the
+        # app's station identity. Times are seconds-since-service-midnight
+        # (can exceed 86400 for after-midnight trains).
+        # ============================================================
+        print('Building widget schedule...')
+        trip_service = {r['trip_id']: r['service_id'] for r in trips_rows}
+        metro_services = {int(s) for s in trip_service.values()}
+
+        # One pass: gather (sequence, stop_id, departure_time, can_board) per T-bana trip.
+        trip_stops = defaultdict(list)
+        with z.open('stop_times.txt') as f:
+            reader = csv.DictReader(io.TextIOWrapper(f, encoding='utf-8'))
+            for row in reader:
+                tid = row['trip_id']
+                if tid not in tbana_trip_ids:
+                    continue
+                try:
+                    seq = int(row['stop_sequence'])
+                except (KeyError, ValueError):
+                    seq = len(trip_stops[tid])
+                can_board = (row.get('pickup_type', '0') or '0').strip() != '1'
+                trip_stops[tid].append((seq, row['stop_id'], row['departure_time'], can_board))
+
+        def hms_to_sec(s):
+            s = (s or '').strip()
+            if not s:
+                return None
+            h, m, sec = s.split(':')
+            return int(h) * 3600 + int(m) * 60 + int(sec)
+
+        dests = []
+        dest_idx = {}
+        def dest_id(nm):
+            if nm not in dest_idx:
+                dest_idx[nm] = len(dests)
+                dests.append(nm)
+            return dest_idx[nm]
+
+        sched = defaultdict(list)      # station name -> [[sec, line, dir, destIdx, svc], ...]
+        station_pt = {}                # station name -> (lat, lon)
+        for tid, stops in trip_stops.items():
+            stops.sort()
+            line = trip_line[tid]
+            direction = int(trip_direction.get(tid, 0))
+            svc = int(trip_service.get(tid, 0))
+            terminus = stop_names_all.get(stops[-1][1], '')
+            di = dest_id(terminus)
+            for seq, sid, dep, can_board in stops[:-1]:   # never board at the terminus
+                if not can_board:
+                    continue
+                sec = hms_to_sec(dep)
+                if sec is None:
+                    continue
+                nm = stop_names_all.get(sid)
+                if not nm:
+                    continue
+                sched[nm].append([sec, line, direction, di, svc])
+                if nm not in station_pt and sid in stop_coords_all:
+                    station_pt[nm] = stop_coords_all[sid]
+        for nm in sched:
+            sched[nm].sort()
+
+        stations_index = [
+            {'name': nm,
+             'lat': station_pt.get(nm, (0, 0))[0],
+             'lon': station_pt.get(nm, (0, 0))[1]}
+            for nm in sched
+        ]
+        with open('data/tbana_schedule.json', 'w', encoding='utf-8') as f:
+            json.dump({'stations': stations_index, 'dests': dests, 'deps': sched},
+                      f, ensure_ascii=False)
+        sched_dep_count = sum(len(v) for v in sched.values())
+        print(f'tbana_schedule.json: {len(sched)} stations, {sched_dep_count} departures')
+
+        # Metro service calendar (date -> active metro service_ids).
+        # Windowed from 2 days ago forward: enough for today + after-midnight
+        # lookback, while dropping stale past dates.
+        lower = (datetime.now(timezone.utc) - timedelta(days=2)).strftime('%Y%m%d')
+        active_services = defaultdict(list)
+        with z.open('calendar_dates.txt') as f:
+            reader = csv.DictReader(io.TextIOWrapper(f, encoding='utf-8'))
+            for row in reader:
+                if row['exception_type'].strip() != '1':
+                    continue
+                sid = int(row['service_id'].strip())
+                if sid not in metro_services:
+                    continue
+                d = row['date'].strip()
+                if d < lower:
+                    continue
+                active_services[d].append(sid)
+        for d in active_services:
+            active_services[d].sort()
+        with open('data/tbana_active_services.json', 'w', encoding='utf-8') as f:
+            json.dump(active_services, f)
+        print(f'tbana_active_services.json: {len(active_services)} service dates')
+
     # --- version.json ---
     version = {
         'updated_at': datetime.now(timezone.utc).isoformat(),
         'trips_count': len(trips_rows),
         'stop_times_count': len(stop_times_rows),
         'stop_names_count': len(stop_names),
-        'stations_count': len(stations_result)
+        'stations_count': len(stations_result),
+        'schedule_stations': len(sched),
+        'schedule_departures': sched_dep_count,
+        'service_dates': len(active_services)
     }
     with open('data/version.json', 'w') as f:
         json.dump(version, f, indent=2)
