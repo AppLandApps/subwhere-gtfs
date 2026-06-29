@@ -118,30 +118,12 @@
   },
   {
     "line": 10,
-    "direction": 0,
-    "stop_id": "9022050012056002",
-    "name": "Kungsträdgården",
-    "lat": 59.330286,
-    "lon": 18.073633,
-    "shape_dist_traveled": 14473.56
-  },
-  {
-    "line": 10,
-    "direction": 1,
-    "stop_id": "9022050012056001",
-    "name": "Kungsträdgården",
-    "lat": 59.330516,
-    "lon": 18.072651,
-    "shape_dist_traveled": 0.0
-  },
-  {
-    "line": 10,
     "direction": 1,
     "stop_id": "9022050009825005",
     "name": "T-Centralen",
     "lat": 59.332438,
     "lon": 18.061991,
-    "shape_dist_traveled": 645.62
+    "shape_dist_traveled": 0.0
   },
   {
     "line": 10,
@@ -150,7 +132,7 @@
     "name": "Rådhuset",
     "lat": 59.330122,
     "lon": 18.04504,
-    "shape_dist_traveled": 1666.69
+    "shape_dist_traveled": 1021.07
   },
   {
     "line": 10,
@@ -159,7 +141,7 @@
     "name": "Fridhemsplan",
     "lat": 59.333015,
     "lon": 18.030807,
-    "shape_dist_traveled": 2568.73
+    "shape_dist_traveled": 1923.11
   },
   {
     "line": 10,
@@ -168,7 +150,7 @@
     "name": "Stadshagen",
     "lat": 59.33756,
     "lon": 18.015786,
-    "shape_dist_traveled": 3573.5
+    "shape_dist_traveled": 2927.88
   },
   {
     "line": 10,
@@ -177,7 +159,7 @@
     "name": "Västra skogen",
     "lat": 59.348037,
     "lon": 18.003374,
-    "shape_dist_traveled": 4960.03
+    "shape_dist_traveled": 4314.41
   },
   {
     "line": 10,
@@ -186,7 +168,7 @@
     "name": "Huvudsta",
     "lat": 59.349564,
     "lon": 17.987008,
-    "shape_dist_traveled": 5949.6
+    "shape_dist_traveled": 5303.98
   },
   {
     "line": 10,
@@ -195,7 +177,7 @@
     "name": "Solna strand",
     "lat": 59.354678,
     "lon": 17.973221,
-    "shape_dist_traveled": 7010.25
+    "shape_dist_traveled": 6364.63
   },
   {
     "line": 10,
@@ -204,7 +186,7 @@
     "name": "Sundbybergs centrum",
     "lat": 59.360495,
     "lon": 17.972657,
-    "shape_dist_traveled": 7667.08
+    "shape_dist_traveled": 7021.46
   },
   {
     "line": 10,
@@ -213,7 +195,7 @@
     "name": "Duvbo",
     "lat": 59.368079,
     "lon": 17.96308,
-    "shape_dist_traveled": 8725.8
+    "shape_dist_traveled": 8080.18
   },
   {
     "line": 10,
@@ -222,7 +204,7 @@
     "name": "Rissne",
     "lat": 59.375908,
     "lon": 17.939668,
-    "shape_dist_traveled": 10323.62
+    "shape_dist_traveled": 9678.0
   },
   {
     "line": 10,
@@ -231,7 +213,7 @@
     "name": "Rinkeby",
     "lat": 59.3883,
     "lon": 17.928499,
-    "shape_dist_traveled": 11894.06
+    "shape_dist_traveled": 11248.44
   },
   {
     "line": 10,
@@ -240,7 +222,7 @@
     "name": "Tensta",
     "lat": 59.394127,
     "lon": 17.902574,
-    "shape_dist_traveled": 13543.43
+    "shape_dist_traveled": 12897.81
   },
   {
     "line": 10,
@@ -249,7 +231,7 @@
     "name": "Hjulsta",
     "lat": 59.396728,
     "lon": 17.888732,
-    "shape_dist_traveled": 14390.24
+    "shape_dist_traveled": 13744.62
   },
   {
     "line": 11,
@@ -348,24 +330,6 @@
     "name": "T-Centralen",
     "lat": 59.332438,
     "lon": 18.061991,
-    "shape_dist_traveled": 999999.0
-  },
-  {
-    "line": 11,
-    "direction": 0,
-    "stop_id": "9022050012056001",
-    "name": "Kungsträdgården",
-    "lat": 59.330516,
-    "lon": 18.072651,
-    "shape_dist_traveled": 999999.0
-  },
-  {
-    "line": 11,
-    "direction": 1,
-    "stop_id": "9022050012056002",
-    "name": "Kungsträdgården",
-    "lat": 59.330286,
-    "lon": 18.073633,
     "shape_dist_traveled": 999999.0
   },
   {
@@ -1343,6 +1307,15 @@
   {
     "line": 17,
     "direction": 0,
+    "stop_id": "9022050009840004",
+    "name": "Vällingby",
+    "lat": 59.363221,
+    "lon": 17.872113,
+    "shape_dist_traveled": 0.0
+  },
+  {
+    "line": 17,
+    "direction": 0,
     "stop_id": "9022050009842002",
     "name": "Hässelby gård",
     "lat": 59.36707,
@@ -1357,15 +1330,6 @@
     "lat": 59.367922,
     "lon": 17.85815,
     "shape_dist_traveled": 1724.15
-  },
-  {
-    "line": 17,
-    "direction": 0,
-    "stop_id": "9022050009840002",
-    "name": "Vällingby",
-    "lat": 59.363268,
-    "lon": 17.872011,
-    "shape_dist_traveled": 2698.55
   },
   {
     "line": 17,
@@ -1910,15 +1874,6 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009832002",
-    "name": "Alvik",
-    "lat": 59.333528,
-    "lon": 17.981276,
-    "shape_dist_traveled": 0.0
-  },
-  {
-    "line": 18,
-    "direction": 0,
     "stop_id": "9022050009843002",
     "name": "Hässelby strand",
     "lat": 59.361742,
@@ -1946,15 +1901,6 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009831002",
-    "name": "Kristineberg",
-    "lat": 59.332723,
-    "lon": 18.00307,
-    "shape_dist_traveled": 1274.44
-  },
-  {
-    "line": 18,
-    "direction": 0,
     "stop_id": "9022050009841002",
     "name": "Johannelund",
     "lat": 59.367922,
@@ -1969,15 +1915,6 @@
     "lat": 59.34837,
     "lon": 17.88285,
     "shape_dist_traveled": 1878.44
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009830002",
-    "name": "Thorildsplan",
-    "lat": 59.331501,
-    "lon": 18.015873,
-    "shape_dist_traveled": 2025.97
   },
   {
     "line": 18,
@@ -2000,29 +1937,11 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009829002",
-    "name": "Fridhemsplan",
-    "lat": 59.333047,
-    "lon": 18.031598,
-    "shape_dist_traveled": 2950.29
-  },
-  {
-    "line": 18,
-    "direction": 0,
     "stop_id": "9022050009836002",
     "name": "Ängbyplan",
     "lat": 59.341946,
     "lon": 17.907174,
     "shape_dist_traveled": 3461.63
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009828002",
-    "name": "S:t Eriksplan",
-    "lat": 59.340284,
-    "lon": 18.037415,
-    "shape_dist_traveled": 3816.86
   },
   {
     "line": 18,
@@ -2036,38 +1955,11 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009827002",
-    "name": "Odenplan",
-    "lat": 59.342766,
-    "lon": 18.048706,
-    "shape_dist_traveled": 4632.44
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009826002",
-    "name": "Rådmansgatan",
-    "lat": 59.340874,
-    "lon": 18.057916,
-    "shape_dist_traveled": 5290.43
-  },
-  {
-    "line": 18,
-    "direction": 0,
     "stop_id": "9022050009835002",
     "name": "Brommaplan",
     "lat": 59.338284,
     "lon": 17.939641,
     "shape_dist_traveled": 5424.29
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050010775002",
-    "name": "Hötorget",
-    "lat": 59.335615,
-    "lon": 18.062964,
-    "shape_dist_traveled": 5943.85
   },
   {
     "line": 18,
@@ -2081,15 +1973,6 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009825002",
-    "name": "T-Centralen",
-    "lat": 59.331521,
-    "lon": 18.061257,
-    "shape_dist_traveled": 6501.57
-  },
-  {
-    "line": 18,
-    "direction": 0,
     "stop_id": "9022050009833002",
     "name": "Stora mossen",
     "lat": 59.334673,
@@ -2099,11 +1982,92 @@
   {
     "line": 18,
     "direction": 0,
+    "stop_id": "9022050009832002",
+    "name": "Alvik",
+    "lat": 59.333528,
+    "lon": 17.981276,
+    "shape_dist_traveled": 7928.37
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009831002",
+    "name": "Kristineberg",
+    "lat": 59.332723,
+    "lon": 18.00307,
+    "shape_dist_traveled": 9202.81
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009830002",
+    "name": "Thorildsplan",
+    "lat": 59.331501,
+    "lon": 18.015873,
+    "shape_dist_traveled": 9954.34
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009829002",
+    "name": "Fridhemsplan",
+    "lat": 59.333047,
+    "lon": 18.031598,
+    "shape_dist_traveled": 10878.66
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009828002",
+    "name": "S:t Eriksplan",
+    "lat": 59.340284,
+    "lon": 18.037415,
+    "shape_dist_traveled": 11745.23
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009827002",
+    "name": "Odenplan",
+    "lat": 59.342766,
+    "lon": 18.048706,
+    "shape_dist_traveled": 12560.81
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009826002",
+    "name": "Rådmansgatan",
+    "lat": 59.340874,
+    "lon": 18.057916,
+    "shape_dist_traveled": 13218.8
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050010775002",
+    "name": "Hötorget",
+    "lat": 59.335615,
+    "lon": 18.062964,
+    "shape_dist_traveled": 13872.22
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009825002",
+    "name": "T-Centralen",
+    "lat": 59.331521,
+    "lon": 18.061257,
+    "shape_dist_traveled": 14429.94
+  },
+  {
+    "line": 18,
+    "direction": 0,
     "stop_id": "9022050009824002",
     "name": "Gamla stan",
     "lat": 59.323377,
     "lon": 18.067083,
-    "shape_dist_traveled": 7565.7
+    "shape_dist_traveled": 15494.07
   },
   {
     "line": 18,
@@ -2112,7 +2076,7 @@
     "name": "Slussen",
     "lat": 59.319625,
     "lon": 18.07223,
-    "shape_dist_traveled": 8077.96
+    "shape_dist_traveled": 16006.33
   },
   {
     "line": 18,
@@ -2121,7 +2085,7 @@
     "name": "Medborgarplatsen",
     "lat": 59.314889,
     "lon": 18.073402,
-    "shape_dist_traveled": 8613.15
+    "shape_dist_traveled": 16541.52
   },
   {
     "line": 18,
@@ -2130,7 +2094,7 @@
     "name": "Skanstull",
     "lat": 59.308498,
     "lon": 18.076111,
-    "shape_dist_traveled": 9343.93
+    "shape_dist_traveled": 17272.3
   },
   {
     "line": 18,
@@ -2139,7 +2103,7 @@
     "name": "Gullmarsplan",
     "lat": 59.299166,
     "lon": 18.080986,
-    "shape_dist_traveled": 10420.22
+    "shape_dist_traveled": 18348.59
   },
   {
     "line": 18,
@@ -2148,7 +2112,7 @@
     "name": "Skärmarbrink",
     "lat": 59.295275,
     "lon": 18.090346,
-    "shape_dist_traveled": 11142.34
+    "shape_dist_traveled": 19070.71
   },
   {
     "line": 18,
@@ -2157,7 +2121,7 @@
     "name": "Blåsut",
     "lat": 59.291149,
     "lon": 18.091141,
-    "shape_dist_traveled": 11637.72
+    "shape_dist_traveled": 19566.09
   },
   {
     "line": 18,
@@ -2166,7 +2130,7 @@
     "name": "Sandsborg",
     "lat": 59.285675,
     "lon": 18.091932,
-    "shape_dist_traveled": 12251.91
+    "shape_dist_traveled": 20180.28
   },
   {
     "line": 18,
@@ -2175,7 +2139,7 @@
     "name": "Skogskyrkogården",
     "lat": 59.278967,
     "lon": 18.095518,
-    "shape_dist_traveled": 13029.17
+    "shape_dist_traveled": 20957.54
   },
   {
     "line": 18,
@@ -2184,7 +2148,7 @@
     "name": "Tallkrogen",
     "lat": 59.271248,
     "lon": 18.085527,
-    "shape_dist_traveled": 14111.29
+    "shape_dist_traveled": 22039.66
   },
   {
     "line": 18,
@@ -2193,7 +2157,7 @@
     "name": "Gubbängen",
     "lat": 59.263324,
     "lon": 18.082138,
-    "shape_dist_traveled": 15049.14
+    "shape_dist_traveled": 22977.51
   },
   {
     "line": 18,
@@ -2202,34 +2166,7 @@
     "name": "Hökarängen",
     "lat": 59.257921,
     "lon": 18.082514,
-    "shape_dist_traveled": 15652.9
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009856002",
-    "name": "Farsta",
-    "lat": 59.243547,
-    "lon": 18.093813,
-    "shape_dist_traveled": 17431.6
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050012753001",
-    "name": "Farsta strand",
-    "lat": 59.235462,
-    "lon": 18.101218,
-    "shape_dist_traveled": 18444.05
-  },
-  {
-    "line": 18,
-    "direction": 1,
-    "stop_id": "9022050012753001",
-    "name": "Farsta strand",
-    "lat": 59.235462,
-    "lon": 18.101218,
-    "shape_dist_traveled": 0.0
+    "shape_dist_traveled": 23581.27
   },
   {
     "line": 18,
@@ -2252,20 +2189,11 @@
   {
     "line": 18,
     "direction": 1,
-    "stop_id": "9022050009856001",
-    "name": "Farsta",
-    "lat": 59.243524,
-    "lon": 18.093653,
-    "shape_dist_traveled": 1012.41
-  },
-  {
-    "line": 18,
-    "direction": 1,
     "stop_id": "9022050010774001",
     "name": "Tallkrogen",
     "lat": 59.271266,
     "lon": 18.085563,
-    "shape_dist_traveled": 4334.7
+    "shape_dist_traveled": 1544.44
   },
   {
     "line": 18,
@@ -2274,7 +2202,7 @@
     "name": "Skogskyrkogården",
     "lat": 59.278967,
     "lon": 18.095518,
-    "shape_dist_traveled": 5413.91
+    "shape_dist_traveled": 2623.65
   },
   {
     "line": 18,
@@ -2283,7 +2211,7 @@
     "name": "Sandsborg",
     "lat": 59.285675,
     "lon": 18.091932,
-    "shape_dist_traveled": 6191.66
+    "shape_dist_traveled": 3401.4
   },
   {
     "line": 18,
@@ -2292,7 +2220,7 @@
     "name": "Blåsut",
     "lat": 59.291184,
     "lon": 18.091161,
-    "shape_dist_traveled": 6809.59
+    "shape_dist_traveled": 4019.33
   },
   {
     "line": 18,
@@ -2301,7 +2229,7 @@
     "name": "Skärmarbrink",
     "lat": 59.295285,
     "lon": 18.09033,
-    "shape_dist_traveled": 7303.06
+    "shape_dist_traveled": 4512.8
   },
   {
     "line": 18,
@@ -2310,7 +2238,7 @@
     "name": "Gullmarsplan",
     "lat": 59.299184,
     "lon": 18.080969,
-    "shape_dist_traveled": 8050.03
+    "shape_dist_traveled": 5259.77
   },
   {
     "line": 18,
@@ -2319,7 +2247,7 @@
     "name": "Skanstull",
     "lat": 59.308499,
     "lon": 18.076094,
-    "shape_dist_traveled": 9130.22
+    "shape_dist_traveled": 6339.96
   },
   {
     "line": 18,
@@ -2328,7 +2256,7 @@
     "name": "Medborgarplatsen",
     "lat": 59.314869,
     "lon": 18.07347,
-    "shape_dist_traveled": 9856.1
+    "shape_dist_traveled": 7065.84
   },
   {
     "line": 18,
@@ -2337,7 +2265,7 @@
     "name": "Slussen",
     "lat": 59.319644,
     "lon": 18.072214,
-    "shape_dist_traveled": 10392.3
+    "shape_dist_traveled": 7602.04
   },
   {
     "line": 18,
@@ -2346,7 +2274,7 @@
     "name": "Gamla stan",
     "lat": 59.323401,
     "lon": 18.067161,
-    "shape_dist_traveled": 10903.57
+    "shape_dist_traveled": 8113.31
   },
   {
     "line": 18,
@@ -2355,7 +2283,7 @@
     "name": "T-Centralen",
     "lat": 59.331522,
     "lon": 18.06124,
-    "shape_dist_traveled": 11963.58
+    "shape_dist_traveled": 9173.32
   },
   {
     "line": 18,
@@ -2364,7 +2292,7 @@
     "name": "Hötorget",
     "lat": 59.335606,
     "lon": 18.062963,
-    "shape_dist_traveled": 12524.78
+    "shape_dist_traveled": 9734.52
   },
   {
     "line": 18,
@@ -2373,7 +2301,7 @@
     "name": "Rådmansgatan",
     "lat": 59.340884,
     "lon": 18.057899,
-    "shape_dist_traveled": 13181.62
+    "shape_dist_traveled": 10391.36
   },
   {
     "line": 18,
@@ -2382,7 +2310,7 @@
     "name": "Odenplan",
     "lat": 59.342759,
     "lon": 18.0486,
-    "shape_dist_traveled": 13844.33
+    "shape_dist_traveled": 11054.07
   },
   {
     "line": 18,
@@ -2391,7 +2319,7 @@
     "name": "S:t Eriksplan",
     "lat": 59.340293,
     "lon": 18.037416,
-    "shape_dist_traveled": 14651.16
+    "shape_dist_traveled": 11860.9
   },
   {
     "line": 18,
@@ -2400,7 +2328,7 @@
     "name": "Fridhemsplan",
     "lat": 59.332977,
     "lon": 18.031488,
-    "shape_dist_traveled": 15532.94
+    "shape_dist_traveled": 12742.68
   },
   {
     "line": 18,
@@ -2409,7 +2337,7 @@
     "name": "Thorildsplan",
     "lat": 59.331492,
     "lon": 18.015837,
-    "shape_dist_traveled": 16446.45
+    "shape_dist_traveled": 13656.19
   },
   {
     "line": 18,
@@ -2418,7 +2346,7 @@
     "name": "Kristineberg",
     "lat": 59.332722,
     "lon": 18.003123,
-    "shape_dist_traveled": 17193.51
+    "shape_dist_traveled": 14403.25
   },
   {
     "line": 18,
@@ -2427,7 +2355,7 @@
     "name": "Alvik",
     "lat": 59.333528,
     "lon": 17.981329,
-    "shape_dist_traveled": 18467.02
+    "shape_dist_traveled": 15676.76
   },
   {
     "line": 18,
@@ -2436,7 +2364,7 @@
     "name": "Stora mossen",
     "lat": 59.334664,
     "lon": 17.965355,
-    "shape_dist_traveled": 19442.44
+    "shape_dist_traveled": 16652.18
   },
   {
     "line": 18,
@@ -2445,7 +2373,7 @@
     "name": "Abrahamsberg",
     "lat": 59.336563,
     "lon": 17.953172,
-    "shape_dist_traveled": 20167.73
+    "shape_dist_traveled": 17377.47
   },
   {
     "line": 18,
@@ -2454,7 +2382,7 @@
     "name": "Brommaplan",
     "lat": 59.338284,
     "lon": 17.939641,
-    "shape_dist_traveled": 20973.59
+    "shape_dist_traveled": 18183.33
   },
   {
     "line": 18,
@@ -2463,7 +2391,7 @@
     "name": "Åkeshov",
     "lat": 59.342052,
     "lon": 17.923599,
-    "shape_dist_traveled": 21993.94
+    "shape_dist_traveled": 19203.68
   },
   {
     "line": 18,
@@ -2472,7 +2400,7 @@
     "name": "Ängbyplan",
     "lat": 59.341956,
     "lon": 17.907087,
-    "shape_dist_traveled": 22943.84
+    "shape_dist_traveled": 20153.58
   },
   {
     "line": 18,
@@ -2481,7 +2409,7 @@
     "name": "Islandstorget",
     "lat": 59.345994,
     "lon": 17.893271,
-    "shape_dist_traveled": 23858.16
+    "shape_dist_traveled": 21067.9
   },
   {
     "line": 18,
@@ -2490,7 +2418,7 @@
     "name": "Blackeberg",
     "lat": 59.34837,
     "lon": 17.88285,
-    "shape_dist_traveled": 24528.0
+    "shape_dist_traveled": 21737.74
   },
   {
     "line": 18,
@@ -2499,7 +2427,7 @@
     "name": "Råcksta",
     "lat": 59.354513,
     "lon": 17.881625,
-    "shape_dist_traveled": 25238.89
+    "shape_dist_traveled": 22448.63
   },
   {
     "line": 18,
@@ -2508,7 +2436,7 @@
     "name": "Vällingby",
     "lat": 59.363277,
     "lon": 17.872011,
-    "shape_dist_traveled": 26410.97
+    "shape_dist_traveled": 23620.71
   },
   {
     "line": 18,
@@ -2517,7 +2445,7 @@
     "name": "Johannelund",
     "lat": 59.367923,
     "lon": 17.858132,
-    "shape_dist_traveled": 27387.52
+    "shape_dist_traveled": 24597.26
   },
   {
     "line": 18,
@@ -2526,7 +2454,7 @@
     "name": "Hässelby gård",
     "lat": 59.367044,
     "lon": 17.844287,
-    "shape_dist_traveled": 28188.79
+    "shape_dist_traveled": 25398.53
   },
   {
     "line": 18,
@@ -2535,7 +2463,7 @@
     "name": "Hässelby strand",
     "lat": 59.361742,
     "lon": 17.832466,
-    "shape_dist_traveled": 29111.44
+    "shape_dist_traveled": 26321.18
   },
   {
     "line": 19,

@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-06-22T08:49:56.610474+00:00",
-  "trips_count": 19467,
-  "stop_times_count": 374913,
-  "stop_names_count": 222,
-  "stations_count": 352,
-  "schedule_stations": 100,
-  "schedule_departures": 355446,
-  "service_dates": 58
+  "updated_at": "2026-06-29T07:22:43.549905+00:00",
+  "trips_count": 17341,
+  "stop_times_count": 332979,
+  "stop_names_count": 214,
+  "stations_count": 344,
+  "schedule_stations": 97,
+  "schedule_departures": 315638,
+  "service_dates": 51
 }
