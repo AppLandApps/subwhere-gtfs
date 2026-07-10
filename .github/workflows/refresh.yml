@@ -2,13 +2,31 @@ name: Refresh GTFS Data
 
 on:
   schedule:
-    - cron: '0 3 * * 1'  # Every Monday at 03:00 UTC
-  workflow_dispatch:       # Allow manual trigger
+    - cron: '0 3 * * *'        # daily at 03:00 UTC (was weekly, Mondays only)
+  workflow_dispatch:
+    inputs:
+      force_deploy:
+        description: 'Publish even if the data is unchanged (leave on for manual runs)'
+        type: boolean
+        default: true
+
+# Least-privilege tokens: commit refreshed data, deploy Pages, open a failure issue.
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+# Never let two publishes race each other.
+concurrency:
+  group: gtfs-pages
+  cancel-in-progress: false
 
 jobs:
-  refresh:
+  refresh-and-deploy:
     runs-on: ubuntu-latest
-    
+    environment:
+      name: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,15 +39,116 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      # ---- your existing generation step, unchanged ----
       - name: Run generate script
         env:
           TRAFIKLAB_KEY: ${{ secrets.TRAFIKLAB_KEY }}
         run: python scripts/generate.py
 
-      - name: Commit and push
+      # ---- gate: refuse to publish obviously-broken data ----
+      - name: Validate generated data
+        run: python scripts/validate.py
+
+      # ---- did the REAL data change (ignore version.json's always-moving timestamp)? ----
+      - name: Detect data changes
+        id: changes
         run: |
-          git config user.name "github-actions[bot]"
+          git add -A data/
+          if git diff --cached --quiet -- data/ ':(exclude)data/version.json'; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data change (only the timestamp moved)."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Data changed."
+          fi
+
+      # ---- commit only on a real change, so daily runs don't churn the repo ----
+      - name: Commit refreshed data
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
-          git diff --staged --quiet || git commit -m "Refresh GTFS data $(date -u '+%Y-%m-%d')"
+          git commit -m "Refresh GTFS data $(date -u '+%Y-%m-%d')"
           git push
+
+      # ---- publish when data changed, or when a human forced it ----
+      - name: Should we deploy?
+        id: gate
+        run: |
+          if [ "${{ steps.changes.outputs.changed }}" = "true" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=false" >> "$GITHUB_OUTPUT"
+            echo "Nothing to publish; leaving the live site as-is (app won't re-download)."
+          fi
+
+      - name: Assemble Pages site
+        if: steps.gate.outputs.go == 'true'
+        run: |
+          rm -rf _site
+          mkdir _site
+          rsync -a --exclude='.git' --exclude='_site' ./ _site/
+
+      - name: Configure Pages
+        if: steps.gate.outputs.go == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: steps.gate.outputs.go == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deploy1
+        if: steps.gate.outputs.go == 'true'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Transient failure — wait, then retry once
+        if: steps.gate.outputs.go == 'true' && steps.deploy1.outcome == 'failure'
+        run: sleep 45
+
+      - name: Deploy to GitHub Pages (retry)
+        if: steps.gate.outputs.go == 'true' && steps.deploy1.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+
+      # ---- if ANYTHING above failed, make noise (never silent again) ----
+      - name: Ping webhook on failure
+        if: failure()
+        env:
+          WEBHOOK: ${{ secrets.ALERT_WEBHOOK_URL }}
+        run: |
+          MSG="Subwhere GTFS pipeline FAILED — https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          echo "$MSG"
+          if [ -n "$WEBHOOK" ]; then
+            curl -s -X POST -H 'Content-Type: application/json' \
+              -d "{\"text\":\"$MSG\",\"content\":\"$MSG\"}" "$WEBHOOK" || true
+          fi
+
+      - name: Open or append a failure issue
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner, repo = context.repo.repo;
+            const marker = 'GTFS refresh/deploy is failing';
+            const run = `${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}`;
+            const stamp = new Date().toISOString();
+            const { data: open } = await github.rest.issues.listForRepo({ owner, repo, state: 'open' });
+            const existing = open.find(i => i.title === marker);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: existing.number,
+                body: `Failed again at ${stamp}: ${run}`,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner, repo, title: marker,
+                body: `The Refresh GTFS Data workflow failed at ${stamp}.\n\nRun: ${run}\n\n`
+                    + `The live GTFS data did NOT update — the app is serving the last good `
+                    + `snapshot. To recover, open the failed run and **Re-run all jobs** (a fresh `
+                    + `run rebuilds the Pages artifact) once any GitHub incident clears. Close this `
+                    + `issue when the pipeline is green again.`,
+              });
+            }
