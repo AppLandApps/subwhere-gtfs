@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-01T05:56:13.591771+00:00",
+  "updated_at": "2026-08-02T05:59:15.611429+00:00",
   "trips_count": 16480,
   "stop_times_count": 339811,
   "stop_names_count": 224,
   "stations_count": 352,
   "schedule_stations": 100,
   "schedule_departures": 323331,
-  "service_dates": 136
+  "service_dates": 135
 }
