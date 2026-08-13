@@ -1946,6 +1946,15 @@
   {
     "line": 18,
     "direction": 0,
+    "stop_id": "9022050009839002",
+    "name": "Råcksta",
+    "lat": 59.354495,
+    "lon": 17.881624,
+    "shape_dist_traveled": 1165.59
+  },
+  {
+    "line": 18,
+    "direction": 0,
     "stop_id": "9022050009831002",
     "name": "Kristineberg",
     "lat": 59.332723,
@@ -1973,11 +1982,29 @@
   {
     "line": 18,
     "direction": 0,
+    "stop_id": "9022050009838002",
+    "name": "Blackeberg",
+    "lat": 59.34837,
+    "lon": 17.88285,
+    "shape_dist_traveled": 1878.44
+  },
+  {
+    "line": 18,
+    "direction": 0,
     "stop_id": "9022050009830002",
     "name": "Thorildsplan",
     "lat": 59.331501,
     "lon": 18.015873,
     "shape_dist_traveled": 2025.97
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009837002",
+    "name": "Islandstorget",
+    "lat": 59.345995,
+    "lon": 17.893219,
+    "shape_dist_traveled": 2539.84
   },
   {
     "line": 18,
@@ -2009,6 +2036,15 @@
   {
     "line": 18,
     "direction": 0,
+    "stop_id": "9022050009836002",
+    "name": "Ängbyplan",
+    "lat": 59.341946,
+    "lon": 17.907174,
+    "shape_dist_traveled": 3461.63
+  },
+  {
+    "line": 18,
+    "direction": 0,
     "stop_id": "9022050009828002",
     "name": "S:t Eriksplan",
     "lat": 59.340284,
@@ -2018,20 +2054,11 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009839002",
-    "name": "Råcksta",
-    "lat": 59.354495,
-    "lon": 17.881624,
-    "shape_dist_traveled": 3875.91
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009838002",
-    "name": "Blackeberg",
-    "lat": 59.34837,
-    "lon": 17.88285,
-    "shape_dist_traveled": 4588.76
+    "stop_id": "9022050012256002",
+    "name": "Åkeshov",
+    "lat": 59.342212,
+    "lon": 17.923296,
+    "shape_dist_traveled": 4388.94
   },
   {
     "line": 18,
@@ -2041,15 +2068,6 @@
     "lat": 59.342766,
     "lon": 18.048706,
     "shape_dist_traveled": 4632.44
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009837002",
-    "name": "Islandstorget",
-    "lat": 59.345995,
-    "lon": 17.893219,
-    "shape_dist_traveled": 5250.16
   },
   {
     "line": 18,
@@ -2072,29 +2090,11 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009836002",
-    "name": "Ängbyplan",
-    "lat": 59.341946,
-    "lon": 17.907174,
-    "shape_dist_traveled": 6171.95
-  },
-  {
-    "line": 18,
-    "direction": 0,
     "stop_id": "9022050009825002",
     "name": "T-Centralen",
     "lat": 59.331521,
     "lon": 18.061257,
     "shape_dist_traveled": 6501.57
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050012256002",
-    "name": "Åkeshov",
-    "lat": 59.342212,
-    "lon": 17.923296,
-    "shape_dist_traveled": 7099.26
   },
   {
     "line": 18,
