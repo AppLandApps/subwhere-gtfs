@@ -1388,15 +1388,6 @@
   {
     "line": 17,
     "direction": 0,
-    "stop_id": "9022050009839002",
-    "name": "Råcksta",
-    "lat": 59.354495,
-    "lon": 17.881624,
-    "shape_dist_traveled": 1165.59
-  },
-  {
-    "line": 17,
-    "direction": 0,
     "stop_id": "9022050010775002",
     "name": "Hötorget",
     "lat": 59.335615,
@@ -1429,24 +1420,6 @@
     "lat": 59.331521,
     "lon": 18.061257,
     "shape_dist_traveled": 1869.13
-  },
-  {
-    "line": 17,
-    "direction": 0,
-    "stop_id": "9022050009838002",
-    "name": "Blackeberg",
-    "lat": 59.34837,
-    "lon": 17.88285,
-    "shape_dist_traveled": 1878.44
-  },
-  {
-    "line": 17,
-    "direction": 0,
-    "stop_id": "9022050009837002",
-    "name": "Islandstorget",
-    "lat": 59.345995,
-    "lon": 17.893219,
-    "shape_dist_traveled": 2539.84
   },
   {
     "line": 17,
@@ -1487,15 +1460,6 @@
   {
     "line": 17,
     "direction": 0,
-    "stop_id": "9022050009836002",
-    "name": "Ängbyplan",
-    "lat": 59.341946,
-    "lon": 17.907174,
-    "shape_dist_traveled": 3461.63
-  },
-  {
-    "line": 17,
-    "direction": 0,
     "stop_id": "9022050009832002",
     "name": "Alvik",
     "lat": 59.333528,
@@ -1505,11 +1469,29 @@
   {
     "line": 17,
     "direction": 0,
+    "stop_id": "9022050009839002",
+    "name": "Råcksta",
+    "lat": 59.354495,
+    "lon": 17.881624,
+    "shape_dist_traveled": 3875.91
+  },
+  {
+    "line": 17,
+    "direction": 0,
     "stop_id": "9022050012751002",
     "name": "Medborgarplatsen",
     "lat": 59.314889,
     "lon": 18.073402,
     "shape_dist_traveled": 3980.71
+  },
+  {
+    "line": 17,
+    "direction": 0,
+    "stop_id": "9022050009838002",
+    "name": "Blackeberg",
+    "lat": 59.34837,
+    "lon": 17.88285,
+    "shape_dist_traveled": 4588.76
   },
   {
     "line": 17,
@@ -1532,6 +1514,15 @@
   {
     "line": 17,
     "direction": 0,
+    "stop_id": "9022050009837002",
+    "name": "Islandstorget",
+    "lat": 59.345995,
+    "lon": 17.893219,
+    "shape_dist_traveled": 5250.16
+  },
+  {
+    "line": 17,
+    "direction": 0,
     "stop_id": "9022050009830002",
     "name": "Thorildsplan",
     "lat": 59.331501,
@@ -1546,6 +1537,15 @@
     "lat": 59.299166,
     "lon": 18.080986,
     "shape_dist_traveled": 5787.78
+  },
+  {
+    "line": 17,
+    "direction": 0,
+    "stop_id": "9022050009836002",
+    "name": "Ängbyplan",
+    "lat": 59.341946,
+    "lon": 17.907174,
+    "shape_dist_traveled": 6171.95
   },
   {
     "line": 17,
