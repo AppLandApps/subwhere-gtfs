@@ -1946,6 +1946,15 @@
   {
     "line": 18,
     "direction": 0,
+    "stop_id": "9022050009839002",
+    "name": "Råcksta",
+    "lat": 59.354495,
+    "lon": 17.881624,
+    "shape_dist_traveled": 1165.59
+  },
+  {
+    "line": 18,
+    "direction": 0,
     "stop_id": "9022050009831002",
     "name": "Kristineberg",
     "lat": 59.332723,
@@ -1973,11 +1982,29 @@
   {
     "line": 18,
     "direction": 0,
+    "stop_id": "9022050009838002",
+    "name": "Blackeberg",
+    "lat": 59.34837,
+    "lon": 17.88285,
+    "shape_dist_traveled": 1878.44
+  },
+  {
+    "line": 18,
+    "direction": 0,
     "stop_id": "9022050009830002",
     "name": "Thorildsplan",
     "lat": 59.331501,
     "lon": 18.015873,
     "shape_dist_traveled": 2025.97
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009837002",
+    "name": "Islandstorget",
+    "lat": 59.345995,
+    "lon": 17.893219,
+    "shape_dist_traveled": 2539.84
   },
   {
     "line": 18,
@@ -2009,6 +2036,15 @@
   {
     "line": 18,
     "direction": 0,
+    "stop_id": "9022050009836002",
+    "name": "Ängbyplan",
+    "lat": 59.341946,
+    "lon": 17.907174,
+    "shape_dist_traveled": 3461.63
+  },
+  {
+    "line": 18,
+    "direction": 0,
     "stop_id": "9022050009828002",
     "name": "S:t Eriksplan",
     "lat": 59.340284,
@@ -2018,20 +2054,11 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009839002",
-    "name": "Råcksta",
-    "lat": 59.354495,
-    "lon": 17.881624,
-    "shape_dist_traveled": 3875.91
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009838002",
-    "name": "Blackeberg",
-    "lat": 59.34837,
-    "lon": 17.88285,
-    "shape_dist_traveled": 4588.76
+    "stop_id": "9022050012256002",
+    "name": "Åkeshov",
+    "lat": 59.342212,
+    "lon": 17.923296,
+    "shape_dist_traveled": 4388.94
   },
   {
     "line": 18,
@@ -2041,15 +2068,6 @@
     "lat": 59.342766,
     "lon": 18.048706,
     "shape_dist_traveled": 4632.44
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009837002",
-    "name": "Islandstorget",
-    "lat": 59.345995,
-    "lon": 17.893219,
-    "shape_dist_traveled": 5250.16
   },
   {
     "line": 18,
@@ -2072,29 +2090,11 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009836002",
-    "name": "Ängbyplan",
-    "lat": 59.341946,
-    "lon": 17.907174,
-    "shape_dist_traveled": 6171.95
-  },
-  {
-    "line": 18,
-    "direction": 0,
     "stop_id": "9022050009825002",
     "name": "T-Centralen",
     "lat": 59.331521,
     "lon": 18.061257,
     "shape_dist_traveled": 6501.57
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050012256002",
-    "name": "Åkeshov",
-    "lat": 59.342212,
-    "lon": 17.923296,
-    "shape_dist_traveled": 7099.26
   },
   {
     "line": 18,
@@ -2540,11 +2540,29 @@
   {
     "line": 19,
     "direction": 0,
+    "stop_id": "9022050009844004",
+    "name": "Gullmarsplan",
+    "lat": 59.29913,
+    "lon": 18.081001,
+    "shape_dist_traveled": 0.0
+  },
+  {
+    "line": 19,
+    "direction": 0,
     "stop_id": "9022050009843002",
     "name": "Hässelby strand",
     "lat": 59.361742,
     "lon": 17.832466,
     "shape_dist_traveled": 0.0
+  },
+  {
+    "line": 19,
+    "direction": 0,
+    "stop_id": "9022050012676002",
+    "name": "Globen",
+    "lat": 59.294252,
+    "lon": 18.078024,
+    "shape_dist_traveled": 583.43
   },
   {
     "line": 19,
@@ -2558,11 +2576,29 @@
   {
     "line": 19,
     "direction": 0,
+    "stop_id": "9022050009846002",
+    "name": "Enskede gård",
+    "lat": 59.288996,
+    "lon": 18.070425,
+    "shape_dist_traveled": 1429.71
+  },
+  {
+    "line": 19,
+    "direction": 0,
     "stop_id": "9022050009841002",
     "name": "Johannelund",
     "lat": 59.367922,
     "lon": 17.85815,
     "shape_dist_traveled": 1724.15
+  },
+  {
+    "line": 19,
+    "direction": 0,
+    "stop_id": "9022050009847002",
+    "name": "Sockenplan",
+    "lat": 59.283636,
+    "lon": 18.070911,
+    "shape_dist_traveled": 2088.31
   },
   {
     "line": 19,
@@ -2576,6 +2612,24 @@
   {
     "line": 19,
     "direction": 0,
+    "stop_id": "9022050009848002",
+    "name": "Svedmyra",
+    "lat": 59.278003,
+    "lon": 18.06794,
+    "shape_dist_traveled": 2754.47
+  },
+  {
+    "line": 19,
+    "direction": 0,
+    "stop_id": "9022050012366002",
+    "name": "Stureby",
+    "lat": 59.274632,
+    "lon": 18.055698,
+    "shape_dist_traveled": 3562.9
+  },
+  {
+    "line": 19,
+    "direction": 0,
     "stop_id": "9022050009839002",
     "name": "Råcksta",
     "lat": 59.354495,
@@ -2585,11 +2639,29 @@
   {
     "line": 19,
     "direction": 0,
+    "stop_id": "9022050009849002",
+    "name": "Bandhagen",
+    "lat": 59.27039,
+    "lon": 18.049647,
+    "shape_dist_traveled": 4198.59
+  },
+  {
+    "line": 19,
+    "direction": 0,
     "stop_id": "9022050009838002",
     "name": "Blackeberg",
     "lat": 59.34837,
     "lon": 17.88285,
     "shape_dist_traveled": 4588.76
+  },
+  {
+    "line": 19,
+    "direction": 0,
+    "stop_id": "9022050009850002",
+    "name": "Högdalen",
+    "lat": 59.263699,
+    "lon": 18.042945,
+    "shape_dist_traveled": 5041.71
   },
   {
     "line": 19,
@@ -2612,11 +2684,29 @@
   {
     "line": 19,
     "direction": 0,
+    "stop_id": "9022050009851002",
+    "name": "Rågsved",
+    "lat": 59.256667,
+    "lon": 18.02828,
+    "shape_dist_traveled": 6218.06
+  },
+  {
+    "line": 19,
+    "direction": 0,
     "stop_id": "9022050012256002",
     "name": "Åkeshov",
     "lat": 59.342212,
     "lon": 17.923296,
     "shape_dist_traveled": 7099.26
+  },
+  {
+    "line": 19,
+    "direction": 0,
+    "stop_id": "9022050009852001",
+    "name": "Hagsätra",
+    "lat": 59.262173,
+    "lon": 18.013153,
+    "shape_dist_traveled": 7506.5
   },
   {
     "line": 19,
@@ -2761,96 +2851,6 @@
     "lat": 59.308498,
     "lon": 18.076111,
     "shape_dist_traveled": 19982.62
-  },
-  {
-    "line": 19,
-    "direction": 0,
-    "stop_id": "9022050009844004",
-    "name": "Gullmarsplan",
-    "lat": 59.29913,
-    "lon": 18.081001,
-    "shape_dist_traveled": 21062.93
-  },
-  {
-    "line": 19,
-    "direction": 0,
-    "stop_id": "9022050012676002",
-    "name": "Globen",
-    "lat": 59.294252,
-    "lon": 18.078024,
-    "shape_dist_traveled": 21646.36
-  },
-  {
-    "line": 19,
-    "direction": 0,
-    "stop_id": "9022050009846002",
-    "name": "Enskede gård",
-    "lat": 59.288996,
-    "lon": 18.070425,
-    "shape_dist_traveled": 22492.64
-  },
-  {
-    "line": 19,
-    "direction": 0,
-    "stop_id": "9022050009847002",
-    "name": "Sockenplan",
-    "lat": 59.283636,
-    "lon": 18.070911,
-    "shape_dist_traveled": 23151.24
-  },
-  {
-    "line": 19,
-    "direction": 0,
-    "stop_id": "9022050009848002",
-    "name": "Svedmyra",
-    "lat": 59.278003,
-    "lon": 18.06794,
-    "shape_dist_traveled": 23817.4
-  },
-  {
-    "line": 19,
-    "direction": 0,
-    "stop_id": "9022050012366002",
-    "name": "Stureby",
-    "lat": 59.274632,
-    "lon": 18.055698,
-    "shape_dist_traveled": 24625.83
-  },
-  {
-    "line": 19,
-    "direction": 0,
-    "stop_id": "9022050009849002",
-    "name": "Bandhagen",
-    "lat": 59.27039,
-    "lon": 18.049647,
-    "shape_dist_traveled": 25261.52
-  },
-  {
-    "line": 19,
-    "direction": 0,
-    "stop_id": "9022050009850002",
-    "name": "Högdalen",
-    "lat": 59.263699,
-    "lon": 18.042945,
-    "shape_dist_traveled": 26104.64
-  },
-  {
-    "line": 19,
-    "direction": 0,
-    "stop_id": "9022050009851002",
-    "name": "Rågsved",
-    "lat": 59.256667,
-    "lon": 18.02828,
-    "shape_dist_traveled": 27280.99
-  },
-  {
-    "line": 19,
-    "direction": 0,
-    "stop_id": "9022050009852001",
-    "name": "Hagsätra",
-    "lat": 59.262173,
-    "lon": 18.013153,
-    "shape_dist_traveled": 28569.43
   },
   {
     "line": 19,
