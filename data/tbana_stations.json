@@ -1919,19 +1919,19 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009843002",
-    "name": "Hässelby strand",
-    "lat": 59.361742,
-    "lon": 17.832466,
+    "stop_id": "9022050012256004",
+    "name": "Åkeshov",
+    "lat": 59.342156,
+    "lon": 17.923362,
     "shape_dist_traveled": 0.0
   },
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050012256004",
-    "name": "Åkeshov",
-    "lat": 59.342156,
-    "lon": 17.923362,
+    "stop_id": "9022050009843002",
+    "name": "Hässelby strand",
+    "lat": 59.361742,
+    "lon": 17.832466,
     "shape_dist_traveled": 0.0
   },
   {
@@ -1942,6 +1942,24 @@
     "lat": 59.36707,
     "lon": 17.844394,
     "shape_dist_traveled": 928.53
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009835002",
+    "name": "Brommaplan",
+    "lat": 59.338284,
+    "lon": 17.939641,
+    "shape_dist_traveled": 1034.85
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009839002",
+    "name": "Råcksta",
+    "lat": 59.354495,
+    "lon": 17.881624,
+    "shape_dist_traveled": 1165.59
   },
   {
     "line": 18,
@@ -1964,11 +1982,47 @@
   {
     "line": 18,
     "direction": 0,
+    "stop_id": "9022050009834002",
+    "name": "Abrahamsberg",
+    "lat": 59.336563,
+    "lon": 17.953172,
+    "shape_dist_traveled": 1841.36
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009838002",
+    "name": "Blackeberg",
+    "lat": 59.34837,
+    "lon": 17.88285,
+    "shape_dist_traveled": 1878.44
+  },
+  {
+    "line": 18,
+    "direction": 0,
     "stop_id": "9022050009830002",
     "name": "Thorildsplan",
     "lat": 59.331501,
     "lon": 18.015873,
     "shape_dist_traveled": 2025.97
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009837002",
+    "name": "Islandstorget",
+    "lat": 59.345995,
+    "lon": 17.893219,
+    "shape_dist_traveled": 2539.84
+  },
+  {
+    "line": 18,
+    "direction": 0,
+    "stop_id": "9022050009833002",
+    "name": "Stora mossen",
+    "lat": 59.334673,
+    "lon": 17.965338,
+    "shape_dist_traveled": 2565.39
   },
   {
     "line": 18,
@@ -1991,6 +2045,15 @@
   {
     "line": 18,
     "direction": 0,
+    "stop_id": "9022050009836002",
+    "name": "Ängbyplan",
+    "lat": 59.341946,
+    "lon": 17.907174,
+    "shape_dist_traveled": 3461.63
+  },
+  {
+    "line": 18,
+    "direction": 0,
     "stop_id": "9022050009828002",
     "name": "S:t Eriksplan",
     "lat": 59.340284,
@@ -2000,38 +2063,11 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009839002",
-    "name": "Råcksta",
-    "lat": 59.354495,
-    "lon": 17.881624,
-    "shape_dist_traveled": 3875.91
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009838002",
-    "name": "Blackeberg",
-    "lat": 59.34837,
-    "lon": 17.88285,
-    "shape_dist_traveled": 4588.76
-  },
-  {
-    "line": 18,
-    "direction": 0,
     "stop_id": "9022050009827002",
     "name": "Odenplan",
     "lat": 59.342766,
     "lon": 18.048706,
     "shape_dist_traveled": 4632.44
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009837002",
-    "name": "Islandstorget",
-    "lat": 59.345995,
-    "lon": 17.893219,
-    "shape_dist_traveled": 5250.16
   },
   {
     "line": 18,
@@ -2050,15 +2086,6 @@
     "lat": 59.335615,
     "lon": 18.062964,
     "shape_dist_traveled": 5943.85
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009836002",
-    "name": "Ängbyplan",
-    "lat": 59.341946,
-    "lon": 17.907174,
-    "shape_dist_traveled": 6171.95
   },
   {
     "line": 18,
@@ -2090,15 +2117,6 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009835002",
-    "name": "Brommaplan",
-    "lat": 59.338284,
-    "lon": 17.939641,
-    "shape_dist_traveled": 8134.61
-  },
-  {
-    "line": 18,
-    "direction": 0,
     "stop_id": "9022050012751002",
     "name": "Medborgarplatsen",
     "lat": 59.314889,
@@ -2108,29 +2126,11 @@
   {
     "line": 18,
     "direction": 0,
-    "stop_id": "9022050009834002",
-    "name": "Abrahamsberg",
-    "lat": 59.336563,
-    "lon": 17.953172,
-    "shape_dist_traveled": 8941.12
-  },
-  {
-    "line": 18,
-    "direction": 0,
     "stop_id": "9022050012752002",
     "name": "Skanstull",
     "lat": 59.308498,
     "lon": 18.076111,
     "shape_dist_traveled": 9343.93
-  },
-  {
-    "line": 18,
-    "direction": 0,
-    "stop_id": "9022050009833002",
-    "name": "Stora mossen",
-    "lat": 59.334673,
-    "lon": 17.965338,
-    "shape_dist_traveled": 9665.15
   },
   {
     "line": 18,
